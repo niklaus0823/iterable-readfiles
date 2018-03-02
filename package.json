@@ -1,6 +1,6 @@
 {
   "name": "iterable-readfiles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "fengjie",
   "description": "Node.js module for iterate through all files in a directory.",
   "homepage": "https://github.com/niklaus0823/node-iterable-readfiles#readme",

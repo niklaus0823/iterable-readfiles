@@ -5,7 +5,7 @@ Node.js module for iterate through all files in a directory.
 ## Install
 
 ```bash
-npm install iterable-readfiles -save
+npm install iterable-readfiles --save
 ```
 
 ## How to use
