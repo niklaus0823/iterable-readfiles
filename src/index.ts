@@ -40,7 +40,6 @@ export async function readfiles(path: string, ignores?: Array<IgnoreType>): Prom
     let list: Array<string> = [];
     res.forEach((filePaths) => {
         list = list.concat(filePaths);
-        console.log(list);
     });
 
     return list;

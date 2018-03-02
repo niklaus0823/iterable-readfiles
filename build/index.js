@@ -40,7 +40,6 @@ function readfiles(path, ignores) {
         let list = [];
         res.forEach((filePaths) => {
             list = list.concat(filePaths);
-            console.log(list);
         });
         return list;
     });
