@@ -1,0 +1,25 @@
+{
+  "name": "iterable-readfiles",
+  "version": "1.0.0",
+  "author": "fengjie",
+  "description": "Node.js module for iterate through all files in a directory.",
+  "homepage": "https://github.com/niklaus0823/node-iterable-readfiles#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklaus0823/node-iterable-readfiles.git"
+  },
+  "bugs": "https://github.com/niklaus0823/node-iterable-readfiles/issues",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.1",
+    "@types/minimatch": "^3.0.3"
+  }
+}
