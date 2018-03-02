@@ -2,7 +2,9 @@ import * as LibFs from 'fs-extra';
 import * as LibPath from 'path';
 import {Minimatch} from 'minimatch';
 
-export type IgnoreFunction = (path: string, stat?: LibFs.Stats) => boolean;
+export interface IgnoreFunction {
+    (path: string, stat?: LibFs.Stats): boolean
+}
 export type IgnoreType = string | IgnoreFunction;
 
 export async function readfiles(path: string, ignores?: Array<IgnoreType>): Promise<Array<string>> {
